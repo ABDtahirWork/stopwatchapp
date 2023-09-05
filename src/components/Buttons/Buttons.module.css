@@ -1,0 +1,9 @@
+.btnContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnContainer button {
+    width: 150px;
+}
