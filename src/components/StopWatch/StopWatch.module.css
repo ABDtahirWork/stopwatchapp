@@ -1,0 +1,11 @@
+.stopWatch {
+    display: flex;
+    justify-content: center;
+}
+
+.timeDial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
