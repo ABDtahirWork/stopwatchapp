@@ -1,3 +1,4 @@
+import React from 'react'
 import classes from './App.module.css'
 import StopWatch from './components/StopWatch/StopWatch'
 

@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import classes from './Buttons.module.css'
 
-const Buttons = ({ startTimer, clearTimer, stopTimer, start }) => {
+interface props {
+  start: boolean, 
+  startTimer: () => void,
+  clearTimer: () => void,
+  stopTimer: () => void,
+}
+
+const Buttons: React.FC<props> = ({ startTimer, clearTimer, stopTimer, start }) => {
   return (
     <div className={classes.btnContainer}>
       {start ? (
